@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lab 1.6</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<main>
+		<nav>
+			<button id="button_1" onclick="left_column()">Левая колонка</button>
+			<button id="button_2" onclick="both_columns()">Обе две</button>
+			<button id="button_3" onclick="right_column()">Правая колонка</button>
+		</nav>
+		<div class="column_block">
+			<div class="left_column open_column" id="left_column_id">
+				<img src="cat.jpg" alt="cat_image" id="left_column_img_id" class="open_column_img">
+			</div>
+			<div class="right_column hidden_column" id="right_column_id">
+				<img src="dog.jpg" alt="dog_image" id="right_column_img_id" class="hidden_column_img">
+			</div>
+		</div>
+	</main>
+	<script src="index.js"></script>
+</body>
+</html>
